@@ -47,7 +47,7 @@ class Currency_Converter
            pound =  euro / 0.86;
            System.out.println("Pound : £"+f.format(pound));
            dollar =  euro / 1.10;
-           System.out.println("Dollar : €"+f.format(dollar));
+           System.out.println("Dollar : $"+f.format(dollar));
            KWD =  euro / 0.34;
            System.out.println("Kuwaiti dinar : KD"+f.format(KWD));
        }
